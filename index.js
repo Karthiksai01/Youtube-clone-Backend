@@ -17,7 +17,7 @@ app.use(cookieParser());
 const PORT = process.env.PORT || 4000;
 
 app.use(cors({
-  origin: "http://localhost:5173", // your frontend origin
+  origin: "https://youtubeclone-jade-six.vercel.app/", // your frontend origin
   credentials: true                // allow cookies / sessions
 }));
 
