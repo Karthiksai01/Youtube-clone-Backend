@@ -17,7 +17,7 @@ app.use(cookieParser());
 const PORT = process.env.PORT || 4000;
 
 app.use(cors({
-  origin: "=https://your-backend.onrender.com", // your frontend origin
+  origin: "https://youtubeclone-git-main-karthiksais-projects.vercel.app", // your frontend origin
   credentials: true                // allow cookies / sessions
 }));
 
