@@ -53,4 +53,4 @@ export const getAllVideosByUserID=async(req,res)=>{
     res.status(500).json({error:'server error'});
   }
 }
-export default uploadVideo;
+export default uploadVideo
