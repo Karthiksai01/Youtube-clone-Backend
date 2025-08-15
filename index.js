@@ -17,9 +17,13 @@ app.use(cookieParser());
 const PORT = process.env.PORT || 4000;
 
 app.use(cors({
-  origin: "http://localhost:5173", // your frontend origin
-  credentials: true                // allow cookies / sessions
+  origin: [
+    "https://youtubeclone-jade-six.vercel.app",
+    "https://youtubeclone-git-main-karthiksais-projects.vercel.app"
+  ],
+  credentials: true
 }));
+
 
 // Middleware
 app.use(express.json());
